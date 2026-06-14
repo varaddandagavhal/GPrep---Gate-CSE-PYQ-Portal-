@@ -81,12 +81,6 @@ export const LoginPage = () => {
             Don't have an account?{' '}
             <Link to="/register" className="font-semibold hover:underline" style={{ color: '#C87A5A' }}>Register here</Link>
           </p>
-
-          <div className="mt-6 clay-card-flat p-4 text-sm rounded-xl">
-            <p className="font-semibold mb-2" style={{ color: '#4A3728' }}>Demo Credentials:</p>
-            <p style={{ color: '#6B5547' }}>Admin: admin@gateprep.com / Admin@123</p>
-            <p style={{ color: '#6B5547' }}>Student: student@gateprep.com / Student@123</p>
-          </div>
         </div>
       </div>
     </MainLayout>
