@@ -1,0 +1,17 @@
+{
+  "name": "gateprep",
+  "version": "1.0.0",
+  "description": "GATE CSE Preparation Platform",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": ["GATE", "CSE", "preparation"],
+  "license": "MIT"
+}
